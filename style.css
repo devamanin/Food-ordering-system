@@ -494,3 +494,19 @@
   bottom: 2px;
   left: 10px;
 }
+@media screen and (max-width: 1387px) {
+  #food-category .container{
+    padding-left: 110px;
+  }
+  #main .header{
+    padding-left: 110px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #food-category .container{
+    padding-left: 10px;
+  }
+  #main .header{
+    padding-left: 10px;
+  }
+}
