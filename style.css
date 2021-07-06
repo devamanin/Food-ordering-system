@@ -692,7 +692,10 @@ body {
   font-size: 18px;
   padding: 5px;
   padding-left: 5px;
-
+}
+#footer .footer-container .footer-top-first .content a{
+  color: #fff;
+  text-decoration: none;
 }
 #footer .footer-container .footer-top-second{
   height: 80px;
