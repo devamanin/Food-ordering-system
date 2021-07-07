@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 
     // smooth scroll
-    let links = $('.navbar-nav a.nav-link');
+    let links = $('.navbar-nav a.nav-link.ad');
     links.click(function(e){
         e.preventDefault();
         let target = $(this).attr('href');
