@@ -759,11 +759,10 @@
 }
 @media screen and (max-width: 1000px) {
   #food-category .container{
-    padding-left: 10px;
+    padding-left: 10px;}
     #main .header{
-    padding-left: 10px;
-    100%{
-    transform: rotate(360deg);
+      padding-left: 10px;}
+
 }
 
 @keyframes button-loading-spinner {
