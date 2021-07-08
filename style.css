@@ -757,6 +757,14 @@
   border-radius: 50%;
   animation: button-loading-spinner 1s ease infinite;
 }
+@media screen and (max-width: 1000px) {
+  #food-category .container{
+    padding-left: 10px;
+    #main .header{
+    padding-left: 10px;
+    100%{
+    transform: rotate(360deg);
+}
 
 @keyframes button-loading-spinner {
   from {
