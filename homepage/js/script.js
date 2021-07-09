@@ -62,3 +62,8 @@ $(document).ready(function(){
     });
 
 });
+
+let fullName =  document.getElementsByClassName('form-control')[0].value;
+let email = document.getElementsByClassName('form-control')[1].value;
+let subject = document.getElementsByClassName('form-control')[2].value;
+let tellUs = document.getElementsByClassName('form-control')[3].value;
