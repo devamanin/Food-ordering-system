@@ -435,7 +435,26 @@ p {
   background: var(--persian-red);
   color: #fff;
 }
-
+.contact-us-response{
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(107, 255, 107); */
+  /* border-radius: 8px; */
+  width: 100%;
+}
+.contact-us-response span{
+  display: block;
+  /* width: 92%; */
+  /* margin: 1rem 0; */
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  background-color: rgb(145, 252, 145);
+  border-radius: 8px;
+}
 /* # Media Queries # */
 
 @media screen and (min-width: 678px) {
