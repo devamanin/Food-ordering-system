@@ -60,10 +60,24 @@ $(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true
     });
+    document.getElementsByClassName('contact-btn')[0].addEventListener('click', function(){
+        let fullName = document.getElementsByClassName('form-control')[0].value;
+    let email = document.getElementsByClassName('form-control')[1].value;
+    let subject = document.getElementsByClassName('form-control')[2].value;
+    let message = document.getElementsByClassName('form-control')[3].value;
+    let serverData = {'fullName':fullName, 'email':email, 'subject':subject, 'message':message};
+    let request = $.ajax({
+        type: 'POST',
+        url: 'https://upper-eh-24269.herokuapp.com/contact/',
+        data: JSON.stringify(serverData),
+        contentType: "application/json"
+    })
+    request.done(function(data){
+        document.getElementsByClassName('contact-us-response')[0].style.display = "flex";
+    })
+
+    })
+    
+
 
 });
-
-let fullName =  document.getElementsByClassName('form-control')[0].value;
-let email = document.getElementsByClassName('form-control')[1].value;
-let subject = document.getElementsByClassName('form-control')[2].value;
-let tellUs = document.getElementsByClassName('form-control')[3].value;
