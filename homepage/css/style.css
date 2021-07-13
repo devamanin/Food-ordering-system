@@ -207,9 +207,9 @@ p {
 .chef-item-img img {
   transition: var(--transition);
 }
-/* .chef-item-img img:hover {
+.chef-item-img img:hover {
   transform: scale(1.2);
-} */
+}
 /* .chef-overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.8);
