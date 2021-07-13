@@ -253,6 +253,9 @@ p {
 .chef-item-img:hover .chef-overlay {
   transform: translateY(0);
 } */
+.chef-item-img:hover{
+  transform: translateY(0);
+}
 .chef-item-footer {
   text-align: center;
   padding: 0.8rem;
