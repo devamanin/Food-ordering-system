@@ -210,7 +210,7 @@ p {
 .chef-item-img img:hover {
   transform: scale(1.2);
 }
-.chef-overlay {
+/* .chef-overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.8);
   bottom: 0;
@@ -252,7 +252,7 @@ p {
 }
 .chef-item-img:hover .chef-overlay {
   transform: translateY(0);
-}
+} */
 .chef-item-footer {
   text-align: center;
   padding: 0.8rem;
