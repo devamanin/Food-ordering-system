@@ -425,11 +425,11 @@ $(document).ready(function () {
     document.getElementById("food-category").style.display = "block";
     document.getElementById("footer").style.display = "block";
   }
-  var server_data = { email: "hey@mail.com", password: "101010" };
+//   var server_data = { email: "hey@mail.com", password: "101010" };
   var request = $.ajax({
     type: "GET",
     url: "https://upper-eh-24269.herokuapp.com/",
-    data: JSON.stringify(server_data),
+//     data: JSON.stringify(server_data),
     beforeSend: function () {
       document.body.scrollTop = "0px";
       let loader = document.createElement("div");
